@@ -50,6 +50,20 @@ img {
     max-width:100% ;
     height: auto;
 }
+/* BUTTON */
+.button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: var(--button-bgc);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
 /* CONTAINER STYLES */
 .container{
     width: 100%;
@@ -117,4 +131,48 @@ img {
     outline: none;
     padding: 6px 0 5px 0;
     border-bottom: 1px solid var(--text-color);
+}
+
+/* MAIN SECTION */
+
+.site-main{
+    flex-grow: 1;
+    background-color: var(--site-bg-color);
+}
+
+/* HERO SECTION */
+
+.site-hero {
+    padding-top: 140px;
+    padding-bottom: 185px;
+    background-image: url("../images/apple-watch.jpg");
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 538px) bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+.global-text-wrapper {
+    width: 100%;
+    max-width: 490px;
+
+}
+.global-text-wrapper__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.global-text-wrapper__text {
+    padding-left: 37px;
+    border-left: 3px solid #888;
+    color: #777;
+    margin-bottom: 30px;
+}
+.global-text-wrapper__button {
+    padding: 12px 38.5px;
 }
